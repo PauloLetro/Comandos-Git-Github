@@ -126,46 +126,61 @@
    * Voltando para o ultimo commit:
 
      **git checkout master**
-  
-  
-  * Lista as configurações User name e meial
-     **git config --list**
+   
+   
+   
+- Lista as configurações User name e meial
+   **git config --list**
+
+   
+
+   
+
+   Para saber quais repositórios remotos meu repositório local está linkado
+
+   git remote -v
+
+   
+
+   Para verificar em qual branch estamos
+
+   git branch
+
+   
+
+   
+
+   
+
+   
+
+   
+
+   
+
+   
+
+   
+
+   
+
+   
+
+   
+
+   
+
+   
+
+   
+
+   
+
+   
 
    ​	
 
-   
-
-   
-
-   
-
-   
-
-   
-
-   
-
-   
-
-   
-
-   
-
-   
-
-   
-
-   
-
-   
-
-   
-
-   
-
-   ​	
-
-    
+​    
 
    
 
