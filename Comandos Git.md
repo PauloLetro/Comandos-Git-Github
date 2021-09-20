@@ -50,13 +50,17 @@
 
      **git commit -m** "Mensagem qualquer" (Esse Comando pega o arquivo antes no staged e o coloca no repositório local **.git**)
 
+     
+
+     untracket ------>>> Stage
+     
+     
+     
      (Caso esqueçamos de colocar a mensagem, o editor vim será aberto, para fechar é só digitar esc e depois escrever :q! e é só fazer o commit de novo)
-
+     
      ![coomit](C:\Users\paulo\Desktop\coomit.PNG)
-
-
-
-
+     
+     
 
 
    * Para verificar todos os meus commits:
@@ -91,15 +95,13 @@
 
 - [x] Manipulando Commits:
 
-   
+    
 
    * Voltar ao estado do ultimo commit:
 
      **git clean -df**
 
      **git checkout -- .**
-
-   
 
    
 
@@ -115,8 +117,6 @@
 
    
 
-   
-
    * Olhar uma Versão anterior:
 
      **git checkout** <Codigo do commit>	
@@ -126,25 +126,49 @@
    * Voltando para o ultimo commit:
 
      **git checkout master**
-   
-   
-   
-- Lista as configurações User name e meial
-   **git config --list**
 
    
 
-   
-
-   Para saber quais repositórios remotos meu repositório local está linkado
-
-   git remote -v
+   - Lista as configurações User name e meial
+     **git config --list**
 
    
 
-   Para verificar em qual branch estamos
+   - Para saber quais repositórios remotos meu repositório local está linkado
 
-   git branch
+     **git remote -v**
+
+   
+
+   - [x] Manipulando branchs:
+
+   - Para verificar em qual branch estamos
+
+     **git branch**
+
+   
+
+   - Para criar arquivos na linha de comando
+
+     **echo > nomeDoArquivo.extensão**
+
+   
+
+   - Para mudar de branch e criar uma branch nova
+
+     **git checkout -b nomeDaBranch**
+
+   
+
+   - Apenar mover de Branch
+
+     **git checkout nomeDaBranch**
+
+   
+
+   - Juntar as duas Branch
+
+     **git merge nomeDaBranchNova(aquela por exemplo que pode ter se originado da master)**
 
    
 
