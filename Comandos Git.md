@@ -182,6 +182,14 @@
   
     git show <nome da tag>
   
+  -Executando o Merge e resolvendo conflitos
+  
+      .git merge <nome da branch que você quer adicionar a outra que você esta em checkout no momento>
+      .Resolvemos o conflito
+      .Damos o git add .
+      .git commit -m "nome do commit"
+      git push origin <nome da branch atual em checkout>
+  
 
    
 
