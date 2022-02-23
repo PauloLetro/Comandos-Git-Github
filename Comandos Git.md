@@ -169,6 +169,19 @@
    - Juntar as duas Branch
 
      **git merge nomeDaBranchNova(aquela por exemplo que pode ter se originado da master)**
+  
+  - Criando Tag
+  
+    git tag -a <nome da tag> -m <comentário>
+  
+  -Publicando Tag
+  
+   git push origin --tags
+  
+  -Mostrando Tag
+  
+    git show <nome da tag>
+  
 
    
 
