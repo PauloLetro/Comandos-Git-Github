@@ -190,6 +190,10 @@
       .git commit -m "nome do commit"
       git push origin <nome da branch atual em checkout>
   
+  
+  
+  :q sai da tela do VIM
+  
 
    
 
