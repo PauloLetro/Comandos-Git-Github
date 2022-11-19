@@ -116,7 +116,11 @@
      **git reset  --hard HEAD~1**
 
    
-
+   * Mostrando commit pelo numero dele:
+  
+    **git show numerodo Commit**
+  
+  
    * Olhar uma Versão anterior:
 
      **git checkout** <Codigo do commit>	
